@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Felipe Macci - Social Tree</title>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+        <link href="assets/styles/main.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="card">
+            <div class="sides-wrapper">
+                <div class="card__side card__side--front">
+                    <header>
+                        <div class="banner"></div>
+
+                        <div class="profile">
+                            <div class="profile__picture" title="Felipe Macci"></div>
+                            <div class="profile__presentation">
+                                <span>Felipe Macci</span>
+                                <small>Full-Stack Developer</small>
+                            </div>
+                        </div>
+                    </header>
+
+                    <main>
+                        <nav id="web-presence">
+                            <ul>
+                                <li class="shortcut"><a href="https://github.com/felipemacci" target="_blank">Github</a></li>
+                                <li class="shortcut"><a href="https://linkedin.com/in/felipemacci" target="_blank">Linkedin</a></li>
+                                <li class="shortcut"><a href="mailto:felipemacci@gmail.com" target="_blank">E-mail</a></li>
+                                <li class="shortcut shortcut--more"><a href="/" onclick="Card.rotate(event)">More</a></li>
+                            </ul>
+                        </nav>
+                    </main>
+                </div>
+                <div class="card__side card__side--back">
+                    <header>
+                        <p><q cite="https://www.rocketseat.com.br">#NeverStopLearning</q></p>
+                    </header>
+
+                    <main>
+                        <h2>Informações</h2>
+                        
+                        <section class="user-info">
+                            <p id="localization">
+                                <i class="uil uil-location-point"></i>
+                                <span>Nova Odessa • São Paulo</span>
+                            </p>
+
+                            <p id="corporation">
+                                <i class="uil uil-bag"></i>
+                                <span>Currently Unemployed</span>
+                            </p>
+
+                            <p id="school">
+                                <i class="uil uil-university"></i>
+                                <span>Web Development • Rocketseat</span>
+                            </p>
+                        </section>
+
+                        <section class="social-media">
+                            <nav id="social-media">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCBAEawf4bzL9buG5iRGcb1Q" target="_blank" title="YouTube"><i class="uil uil-play"></i></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://twitter.com/felipemacci" target="_blank" title="Twitter"><i class="uil uil-twitter-alt"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </main>
+
+                    <footer>
+                        <a href="/" title="Voltar" onclick="Card.rotate(event)">Back</a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/scripts/card.js"></script>
+    </body>
+</html>
