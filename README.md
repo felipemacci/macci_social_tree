@@ -1,23 +1,23 @@
 <h1 align="center">MACCI SOCIAL TREE 🔗</h1>
-<h3 align="center">PERSONALIZE SEU CARD SOCIAL TREE</h3>
+<h3 align="center">CUSTOMIZE YOUR SOCIAL TREE CARD</h3>
 
 <br/>
 
 <p align="center">
-    <img width="800px" src="./.github/demonstration.png" alt="Imagem de demonstração">
+    <img width="800px" src="./.github/demonstration.png" alt="Demo Image">
 </p>
 
 <br />
 
-#### NOTAS DE VERSÃO: V1.0.0:
-- Primeira versão do projeto 🎉
-- Personalize sua social tree como quiser
-- Sistema de "Ver mais" com rotação
-- Aplicação Responsiva
+#### RELEASE NOTES: V1.0.0:
+- First version of the project 🎉
+- Customize your social tree however you like
+- "See more" system with rotation
+- Responsive Application
 
 <br />
 
-#### TECNOLOGIAS:
+#### TECHNOLOGIES:
 - HTML 📄
 - CSS 🎨
 - JAVASCRIPT 💻
